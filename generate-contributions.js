@@ -1,83 +1,87 @@
 const fs = require("fs");
 const axios = require("axios");
 require("dotenv").config();
-const username = "MUHSIN-M-P"; // ✅ Replace with your GitHub username
-const token = process.env.GITHUB_TOKEN; // ✅ Use GitHub Personal Access Token from environment variable
 
-if (!token) {
-  throw new Error("GITHUB_TOKEN environment variable is not set.");
-}
+const username = "MUHSIN-M-P";
+const token = process.env.GITHUB_TOKEN;
+const readmePath = "README.md";
+const cachePath = ".cache.json";
 
 const headers = {
   Authorization: `token ${token}`,
-  "User-Agent": "GitHub-Contrib-Script"
+  "User-Agent": "GitHub-Contrib-Script",
+  Accept: "application/vnd.github+json"
 };
 
-async function getRepos() {
-  const url = `https://api.github.com/users/${username}/repos?per_page=100`;
-  const { data } = await axios.get(url, { headers });
-  return data.map(repo => ({
-    name: repo.name,
-    full_name: repo.full_name,
-    fork: repo.fork
-  }));
+if (!token) throw new Error("❌ GITHUB_TOKEN is not set in environment variables.");
+
+function loadCache() {
+  if (fs.existsSync(cachePath)) return JSON.parse(fs.readFileSync(cachePath, "utf8"));
+  return {};
 }
 
-async function getBranches(full_name) {
-  const url = `https://api.github.com/repos/${full_name}/branches`;
-  const { data } = await axios.get(url, { headers });
-  return data.map(b => b.name);
-}
-
-async function getCommits(full_name, branch) {
-  const url = `https://api.github.com/repos/${full_name}/commits?sha=${branch}&per_page=5`;
-  const { data } = await axios.get(url, { headers });
-  return data.map(commit => ({
-    message: commit.commit.message,
-    date: commit.commit.author.date,
-    url: commit.html_url,
-    repo: full_name,
-    branch
-  }));
+function saveCache(cache) {
+  fs.writeFileSync(cachePath, JSON.stringify(cache, null, 2));
 }
 
 function formatCommits(commits) {
-  return commits
+  return Object.values(commits)
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
     .map(
       c =>
-        `- [${c.repo} \`${c.branch}\`](${c.url}): ${c.message} (${new Date(c.date).toLocaleDateString()})`
+        `- [${c.repo} \`${c.sha.slice(0, 7)}\`](${c.url}): ${c.message} (${new Date(c.date).toLocaleDateString()})`
     )
     .join("\n");
 }
 
-async function generateReadmeSection() {
-  const repos = await getRepos();
-  const allCommits = [];
+async function fetchEvents(page = 1) {
+  const url = `https://api.github.com/users/${username}/events?page=${page}&per_page=100`;
+  const { data } = await axios.get(url, { headers });
+  return data;
+}
 
-  for (const repo of repos) {
-    const branches = await getBranches(repo.full_name);
-    for (const branch of branches) {
-      const commits = await getCommits(repo.full_name, branch);
-      allCommits.push(...commits);
+async function fetchAllRecentEvents() {
+  const events = [];
+  for (let page = 1; page <= 3; page++) {
+    const pageEvents = await fetchEvents(page);
+    if (!pageEvents.length) break;
+    events.push(...pageEvents);
+  }
+  return events;
+}
+
+async function generateReadmeSection() {
+  const cache = loadCache();
+  const events = await fetchAllRecentEvents();
+  const updates = {};
+
+  for (const event of events) {
+    if (event.type === "PushEvent" && event.payload?.commits?.length) {
+      const repo = event.repo.name;
+      const latestCommit = event.payload.commits.slice(-1)[0];
+      const url = `https://github.com/${repo}/commit/${latestCommit.sha}`;
+      const commitData = {
+        repo,
+        sha: latestCommit.sha,
+        message: latestCommit.message,
+        date: event.created_at,
+        url
+      };
+      if (!cache[repo] || new Date(commitData.date) > new Date(cache[repo].date)) {
+        updates[repo] = commitData;
+      }
     }
   }
 
-  const content = `<!--START_CUSTOM_COMMITS-->\n## 📝 Recent Commits\n${formatCommits(
-    allCommits
-  )}\n<!--END_CUSTOM_COMMITS-->`;
+  const updatedCache = { ...cache, ...updates };
+  saveCache(updatedCache);
 
-  const readmePath = "README.md";
-  let readme = fs.readFileSync(readmePath, "utf8");
-
-  const newReadme = readme.replace(
-    /<!--START_CUSTOM_COMMITS-->[\s\S]*<!--END_CUSTOM_COMMITS-->/,
-    content
-  );
+  const section = `<!--START_CONTRIBUTED_REPOS-->\n## 🔥 Latest Commit per Contributed Repo\n${formatCommits(updatedCache)}\n<!--END_CONTRIBUTED_REPOS-->`;
+  const readme = fs.readFileSync(readmePath, "utf8");
+  const newReadme = readme.replace(/<!--START_CONTRIBUTED_REPOS-->[\s\S]*<!--END_CONTRIBUTED_REPOS-->/, section);
 
   fs.writeFileSync(readmePath, newReadme);
-  console.log("✅ README updated with recent commits.");
+  console.log("✅ README updated with recent contributions.");
 }
 
-generateReadmeSection().catch(err => {
-  console.error("❌ Failed:", err.message);
-});
+generateReadmeSection().catch(err => console.error("❌ Failed:", err.message));
