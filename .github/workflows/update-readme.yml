@@ -2,33 +2,37 @@ name: Auto Update Contributions in README
 
 on:
   schedule:
-    - cron: "0 0 * * *" # every day at midnight UTC
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC
   workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write 
+      actions: read
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "20"
 
       - name: Install Dependencies
-        run: npm install axios
+        run: npm install
 
-      - name: Run Script
+      - name: Run Script to Update README
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_API_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "Generating README content..."
           node generate-contributions.js
 
-      - name: Commit & Push
+      - name: Commit & Push Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
