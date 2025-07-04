@@ -6,7 +6,6 @@
 ## 🔥 Latest Commit per Contributed Repo
 - [ZE206/GLUG-Website `fa8fc48`](https://github.com/ZE206/GLUG-Website/commit/fa8fc4895aa06fc14d926d48da2ec80537eaa6a7): LIG and opensource proj changed to responsive fixed navbar for tablet (6/9/2025)
 - [IEEE-SB-NITC/ieee-sb-nitc `9a83f02`](https://github.com/IEEE-SB-NITC/ieee-sb-nitc/commit/9a83f02540765484259494940181c9229e8b591e): update footer styles (6/4/2025)
-- [MUHSIN-M-P/GLUG-Website `657f0b8`](https://github.com/MUHSIN-M-P/GLUG-Website/commit/657f0b85a4a65d0205532fd54dd12b77dc6777c9): Fixed horizontal scrolling issue (6/3/2025)
 - [MUHSIN-M-P/MUHSIN-M-P `7494e6a`](https://github.com/MUHSIN-M-P/MUHSIN-M-P/commit/7494e6ada2b25979604fd17f07543a39f52b7148): Create activity.yml (5/25/2025)
 <!--END_CONTRIBUTED_REPOS-->
 
