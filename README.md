@@ -4,8 +4,8 @@
 ## 🔥 Recent GitHub Activity
 <!--START_CONTRIBUTED_REPOS-->
 ## 🔥 Latest Commit per Contributed Repo
+- [IEEE-SB-NITC/ieee-sb-nitc `967109c`](https://github.com/IEEE-SB-NITC/ieee-sb-nitc/commit/967109c730a62fd88170bb97ef3f3d14aced6f93): added latest-events carousel (6/10/2025)
 - [ZE206/GLUG-Website `fa8fc48`](https://github.com/ZE206/GLUG-Website/commit/fa8fc4895aa06fc14d926d48da2ec80537eaa6a7): LIG and opensource proj changed to responsive fixed navbar for tablet (6/9/2025)
-- [IEEE-SB-NITC/ieee-sb-nitc `9a83f02`](https://github.com/IEEE-SB-NITC/ieee-sb-nitc/commit/9a83f02540765484259494940181c9229e8b591e): update footer styles (6/4/2025)
 - [MUHSIN-M-P/MUHSIN-M-P `7494e6a`](https://github.com/MUHSIN-M-P/MUHSIN-M-P/commit/7494e6ada2b25979604fd17f07543a39f52b7148): Create activity.yml (5/25/2025)
 <!--END_CONTRIBUTED_REPOS-->
 
