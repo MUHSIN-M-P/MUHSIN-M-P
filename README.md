@@ -8,9 +8,7 @@
 - [MUHSIN-M-P/otpauthentication `0a69f8b`](https://github.com/MUHSIN-M-P/otpauthentication/commit/0a69f8bed70d9a1ff7bb63e4ce1ba190548cf38a): added register and validation of new user (7/26/2025)
 - [IEEE-SB-NITC/ieee-sb-nitc `2bf6e67`](https://github.com/IEEE-SB-NITC/ieee-sb-nitc/commit/2bf6e6749bfa54b658e11dee8fbd2409490d7628): small size change (7/21/2025)
 - [IEEE-SB-NITC/NSRC `3510e9b`](https://github.com/IEEE-SB-NITC/NSRC/commit/3510e9b670f263fec79b49da714c19555a78ae5b): added sponsorship.html and few changes in index.html (7/14/2025)
-- [MUHSIN-M-P/Project-FindMyFriend `2c84e4e`](https://github.com/MUHSIN-M-P/Project-FindMyFriend/commit/2c84e4efd3314efaacc07f2ccb883bcc9d26439b): Merge pull request #2 from MUHSIN-M-P/frontend_dev_1
-
-user card + mobile design + navbar responsiveness (7/11/2025)
+- [MUHSIN-M-P/Project-FindMyFriend `e5cf6aa`](https://github.com/MUHSIN-M-P/Project-FindMyFriend/commit/e5cf6aa934df235516e32c67a9f1a0166ad96f6b): added oauth and tables (7/11/2025)
 - [MUHSIN-M-P/MUHSIN-M-P `7494e6a`](https://github.com/MUHSIN-M-P/MUHSIN-M-P/commit/7494e6ada2b25979604fd17f07543a39f52b7148): Create activity.yml (5/25/2025)
 <!--END_CONTRIBUTED_REPOS-->
 
