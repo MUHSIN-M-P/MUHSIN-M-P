@@ -7,7 +7,7 @@
 - [IEEE-SB-NITC/ieee-sb-nitc `dbe6151`](https://github.com/IEEE-SB-NITC/ieee-sb-nitc/commit/dbe615182dc7a01ef98b8c8af23288a40222858c): fixed mobile screen background (8/25/2025)
 - [IEEE-SB-NITC/NSRC `0ddf78f`](https://github.com/IEEE-SB-NITC/NSRC/commit/0ddf78f4b6e7394f96b2b187f8e84e0536feabc1): added new section in  about, some fixes (8/7/2025)
 - [MUHSIN-M-P/Travel-Book `96ded7a`](https://github.com/MUHSIN-M-P/Travel-Book/commit/96ded7a72780b6127a46586e158793d0fe448d2e): testing (7/28/2025)
-- [MUHSIN-M-P/otpauthentication `0a69f8b`](https://github.com/MUHSIN-M-P/otpauthentication/commit/0a69f8bed70d9a1ff7bb63e4ce1ba190548cf38a): added register and validation of new user (7/26/2025)
+- [MUHSIN-M-P/otpauthentication `10032fb`](https://github.com/MUHSIN-M-P/otpauthentication/commit/10032fb24dcf6d668220fd2ab4fb07b9554666db): added redis - rate limiting and made register endpoint secure (7/27/2025)
 - [MUHSIN-M-P/MUHSIN-M-P `7494e6a`](https://github.com/MUHSIN-M-P/MUHSIN-M-P/commit/7494e6ada2b25979604fd17f07543a39f52b7148): Create activity.yml (5/25/2025)
 <!--END_CONTRIBUTED_REPOS-->
 
