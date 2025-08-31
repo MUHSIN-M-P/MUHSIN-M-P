@@ -6,7 +6,6 @@
 ## 🔥 Latest Commit per Contributed Repo
 - [IEEE-SB-NITC/ieee-sb-nitc `dbe6151`](https://github.com/IEEE-SB-NITC/ieee-sb-nitc/commit/dbe615182dc7a01ef98b8c8af23288a40222858c): fixed mobile screen background (8/25/2025)
 - [IEEE-SB-NITC/NSRC `0ddf78f`](https://github.com/IEEE-SB-NITC/NSRC/commit/0ddf78f4b6e7394f96b2b187f8e84e0536feabc1): added new section in  about, some fixes (8/7/2025)
-- [MUHSIN-M-P/Travel-Book `084c2d6`](https://github.com/MUHSIN-M-P/Travel-Book/commit/084c2d6b2b1e2c4fb3a6f28cb8ecf6f2c0c315ce): fixed issue of light mode text not visible - for button (7/31/2025)
 - [MUHSIN-M-P/MUHSIN-M-P `7494e6a`](https://github.com/MUHSIN-M-P/MUHSIN-M-P/commit/7494e6ada2b25979604fd17f07543a39f52b7148): Create activity.yml (5/25/2025)
 <!--END_CONTRIBUTED_REPOS-->
 
