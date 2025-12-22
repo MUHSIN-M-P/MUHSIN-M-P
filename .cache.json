@@ -1,16 +1,51 @@
 {
   "MUHSIN-M-P/MUHSIN-M-P": {
     "repo": "MUHSIN-M-P/MUHSIN-M-P",
-    "sha": "7494e6ada2b25979604fd17f07543a39f52b7148",
-    "message": "Create activity.yml",
-    "date": "2025-05-25T01:52:20Z",
-    "url": "https://github.com/MUHSIN-M-P/MUHSIN-M-P/commit/7494e6ada2b25979604fd17f07543a39f52b7148"
+    "sha": "801b4509396aae82ec77b35d8eb384c08f3bdcf1",
+    "message": "📝 Auto-update contributions in README",
+    "date": "2025-10-15T01:23:52Z",
+    "url": "https://github.com/MUHSIN-M-P/MUHSIN-M-P/commit/801b4509396aae82ec77b35d8eb384c08f3bdcf1"
   },
   "IEEE-SB-NITC/ieee-sb-nitc": {
     "repo": "IEEE-SB-NITC/ieee-sb-nitc",
-    "sha": "152d91163d754b5ba8141ad89a70529bfa95c807",
-    "message": "made responsive",
-    "date": "2025-05-08T14:01:50Z",
-    "url": "https://github.com/IEEE-SB-NITC/ieee-sb-nitc/commit/152d91163d754b5ba8141ad89a70529bfa95c807"
+    "sha": "dbe615182dc7a01ef98b8c8af23288a40222858c",
+    "message": "fixed mobile screen background",
+    "date": "2025-08-25T04:08:18Z",
+    "url": "https://github.com/IEEE-SB-NITC/ieee-sb-nitc/commit/dbe615182dc7a01ef98b8c8af23288a40222858c"
+  },
+  "MUHSIN-M-P/Secure-Container-Access-Manager": {
+    "repo": "MUHSIN-M-P/Secure-Container-Access-Manager",
+    "sha": "9e27fabbec5e9ed61cbe11924bdec93e74630a13",
+    "message": "added notes",
+    "date": "2025-12-18T04:41:40Z",
+    "url": "https://github.com/MUHSIN-M-P/Secure-Container-Access-Manager/commit/9e27fabbec5e9ed61cbe11924bdec93e74630a13"
+  },
+  "MUHSIN-M-P/Project-FindMyFriend": {
+    "repo": "MUHSIN-M-P/Project-FindMyFriend",
+    "sha": "e1fae8eafa21f5cdbbb66ab9ab24a5f2b3165386",
+    "message": "frontend updations",
+    "date": "2025-12-17T12:33:40Z",
+    "url": "https://github.com/MUHSIN-M-P/Project-FindMyFriend/commit/e1fae8eafa21f5cdbbb66ab9ab24a5f2b3165386"
+  },
+  "MUHSIN-M-P/CodeSquad-CP-DSA-Tracker": {
+    "repo": "MUHSIN-M-P/CodeSquad-CP-DSA-Tracker",
+    "sha": "7174589f2cdf584b6b42a80fb4688cfef342a1ab",
+    "message": "completed for leetcode  v1",
+    "date": "2025-12-09T06:37:12Z",
+    "url": "https://github.com/MUHSIN-M-P/CodeSquad-CP-DSA-Tracker/commit/7174589f2cdf584b6b42a80fb4688cfef342a1ab"
+  },
+  "cscnitc/blog-site": {
+    "repo": "cscnitc/blog-site",
+    "sha": "3b9f6d1a85d9e33ca89d7f518455292d19ba3fbe",
+    "message": "major update with all needs",
+    "date": "2025-12-08T07:20:57Z",
+    "url": "https://github.com/cscnitc/blog-site/commit/3b9f6d1a85d9e33ca89d7f518455292d19ba3fbe"
+  },
+  "MUHSIN-M-P/AImove": {
+    "repo": "MUHSIN-M-P/AImove",
+    "sha": "d715f072a98b0e1a2e5e41dfa652eebfe748a298",
+    "message": "Update README.md",
+    "date": "2025-12-02T12:35:06Z",
+    "url": "https://github.com/MUHSIN-M-P/AImove/commit/d715f072a98b0e1a2e5e41dfa652eebfe748a298"
   }
 }
