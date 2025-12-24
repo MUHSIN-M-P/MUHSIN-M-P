@@ -6,6 +6,7 @@
 
 <img src="https://komarev.com/ghpvc/?username=MUHSIN-M-P&label=Profile%20Explorers&color=brightgreen&style=plastic" alt="Profile views"/>
 
+
 </div>
 
 ---
@@ -17,6 +18,12 @@
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Technologist%20Medium%20Skin%20Tone.png" alt="Technologist" width="150" />
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="25" style="vertical-align: middle; display: inline-block;" /> **Full-Stack Developer** | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Light%20Bulb.png" alt="Bulb" width="25" style="vertical-align: middle; display: inline-block;" /> **Innovation Architect** | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20with%20Meridians.png" alt="Globe" width="25" style="vertical-align: middle; display: inline-block;" /> Open Source Contributor | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Crystal%20Ball.png" alt="Crystal Ball" width="25" height="25" style="vertical-align: middle; display: inline-block;" /> Tech Visionary
+
+<p align="center">
+  <a href="https://muhsin-m-p.vercel.app/" >
+    <img src="https://readme-typing-svg.herokuapp.com?size=20&duration=3000&pause=500&center=true&vCenter=true&width=600&lines=🚀+Visit+My+Portfolio" />
+  </a>
+</p>
 
 </div>
 
