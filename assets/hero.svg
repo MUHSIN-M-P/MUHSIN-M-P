@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="50%" stop-color="#080E1E" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9376" />
+      <stop offset="50%" stop-color="#FF734D" />
+      <stop offset="100%" stop-color="#FF451A" />
+    </linearGradient>
+
+    <radialGradient id="coralGlow" cx="20%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#FF734D" stop-opacity="0.25" />
+      <stop offset="60%" stop-color="#FF734D" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="cyanGlow" cx="80%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.18" />
+      <stop offset="55%" stop-color="#38BDF8" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF734D" stop-opacity="0.7" />
+      <stop offset="35%" stop-color="#38BDF8" stop-opacity="0.3" />
+      <stop offset="70%" stop-color="#1E293B" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#FF734D" stop-opacity="0.5" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1E293B" stroke-width="0.8" stroke-opacity="0.45" />
+      <circle cx="36" cy="36" r="1" fill="#38BDF8" opacity="0.35" />
+    </pattern>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseLive {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.2; }
+    }
+    @keyframes shimmerTitle {
+      0%, 100% { filter: drop-shadow(0 0 16px rgba(255, 115, 77, 0.4)); }
+      50% { filter: drop-shadow(0 0 28px rgba(255, 115, 77, 0.7)); }
+    }
+
+    .live-dot { animation: pulseLive 2s ease-in-out infinite; }
+    .brand-title { animation: shimmerTitle 4s ease-in-out infinite; }
+
+    .brand-name {
+      font-family: 'Syne', 'Anton', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 800;
+      letter-spacing: 5px;
+    }
+    .mono-meta {
+      font-family: 'Geist Mono', 'Fira Code', 'JetBrains Mono', monospace;
+    }
+    .sans-text {
+      font-family: 'Geist', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="400" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="400" rx="16" fill="url(#cyberGrid)" />
+
+  <!-- Ambient Light Fields -->
+  <circle cx="280" cy="160" r="260" fill="url(#coralGlow)" filter="url(#subtleGlow)" />
+  <circle cx="960" cy="150" r="240" fill="url(#cyanGlow)" filter="url(#subtleGlow)" />
+
+  <!-- Outer Glass Border -->
+  <rect x="1" y="1" width="1198" height="398" rx="15" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Top Status HUD -->
+  <g transform="translate(56, 40)">
+    <!-- Pill 1: Status -->
+    <g>
+      <rect x="0" y="0" width="230" height="32" rx="16" fill="#0B1120" stroke="#1E293B" stroke-width="1.2" />
+      <circle cx="18" cy="16" r="4.5" fill="#22C55E" class="live-dot" />
+      <text x="32" y="21" class="mono-meta" font-size="11.5" fill="#E2E8F0" font-weight="700" letter-spacing="1">SYSTEM : ACTIVE</text>
+      <text x="175" y="21" class="mono-meta" font-size="11" fill="#38BDF8" font-weight="600">v2.6</text>
+    </g>
+
+    <!-- Pill 2: Environment -->
+    <g transform="translate(245, 0)">
+      <rect x="0" y="0" width="220" height="32" rx="16" fill="#0B1120" stroke="#1E293B" stroke-width="1.2" />
+      <text x="16" y="21" class="mono-meta" font-size="11" fill="#94A3B8">OS :</text>
+      <text x="48" y="21" class="mono-meta" font-size="11" fill="#F1F5F9" font-weight="600">LINUX / HYPRLAND</text>
+    </g>
+
+    <!-- Pill 3: Campus -->
+    <g transform="translate(735, 0)">
+      <rect x="0" y="0" width="350" height="32" rx="16" fill="#0B1120" stroke="#1E293B" stroke-width="1.2" />
+      <text x="16" y="21" class="mono-meta" font-size="11.5" fill="#FF734D" font-weight="700">🎓 NIT CALICUT</text>
+      <text x="125" y="21" class="mono-meta" font-size="11" fill="#94A3B8">· B.TECH CSE · CLASS OF '26</text>
+    </g>
+  </g>
+
+  <!-- Main Hero Brand Content -->
+  <g transform="translate(56, 135)">
+    <!-- Overline Category -->
+    <g transform="translate(4, 0)">
+      <rect x="0" y="-11" width="10" height="10" rx="2.5" fill="#38BDF8" />
+      <text x="18" y="0" class="mono-meta" font-size="13" fill="#38BDF8" font-weight="700" letter-spacing="2.5">
+        FULL-STACK DEVELOPER &amp; SYSTEMS ENTHUSIAST
+      </text>
+    </g>
+
+    <!-- Primary Title -->
+    <text x="0" y="66" class="brand-name brand-title" font-size="76" fill="url(#primaryGrad)">
+      MUHSIN M P
+    </text>
+
+    <!-- Credo -->
+    <g transform="translate(4, 102)">
+      <rect x="0" y="-15" width="4" height="20" fill="#FF734D" rx="2" />
+      <text x="14" y="0" class="sans-text" font-size="16" fill="#CBD5E1" font-weight="500">
+        Tested. Broken. Perfecting. <tspan fill="#FF734D" font-weight="700">Built On Resilience.</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Architectural Pillars Dock (Bottom) -->
+  <g transform="translate(56, 320)">
+    <!-- Module 1: Web -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="255" height="44" rx="8" fill="#0B1120" stroke="#1E293B" stroke-width="1.2" />
+      <rect x="0" y="0" width="4" height="44" rx="2" fill="#FF734D" />
+      <text x="16" y="18" class="mono-meta" font-size="10" fill="#FF734D" font-weight="800" letter-spacing="1.5">01 // FULL-STACK</text>
+      <text x="16" y="34" class="sans-text" font-size="12" fill="#E2E8F0" font-weight="600">Next.js · TypeScript · Prisma · Postgres</text>
+    </g>
+
+    <!-- Module 2: Desktop -->
+    <g transform="translate(275, 0)">
+      <rect x="0" y="0" width="255" height="44" rx="8" fill="#0B1120" stroke="#1E293B" stroke-width="1.2" />
+      <rect x="0" y="0" width="4" height="44" rx="2" fill="#38BDF8" />
+      <text x="16" y="18" class="mono-meta" font-size="10" fill="#38BDF8" font-weight="800" letter-spacing="1.5">02 // DESKTOP HUD</text>
+      <text x="16" y="34" class="sans-text" font-size="12" fill="#E2E8F0" font-weight="600">QML · C++ · Wayland · Hyprland</text>
+    </g>
+
+    <!-- Module 3: Security & Containers -->
+    <g transform="translate(550, 0)">
+      <rect x="0" y="0" width="255" height="44" rx="8" fill="#0B1120" stroke="#1E293B" stroke-width="1.2" />
+      <rect x="0" y="0" width="4" height="44" rx="2" fill="#F59E0B" />
+      <text x="16" y="18" class="mono-meta" font-size="10" fill="#F59E0B" font-weight="800" letter-spacing="1.5">03 // DOCKER &amp; CLI</text>
+      <text x="16" y="34" class="sans-text" font-size="12" fill="#E2E8F0" font-weight="600">Python CLI · RBAC · Container Audits</text>
+    </g>
+
+    <!-- Module 4: Low-Level -->
+    <g transform="translate(825, 0)">
+      <rect x="0" y="0" width="263" height="44" rx="8" fill="#0B1120" stroke="#1E293B" stroke-width="1.2" />
+      <rect x="0" y="0" width="4" height="44" rx="2" fill="#2DD4BF" />
+      <text x="16" y="18" class="mono-meta" font-size="10" fill="#2DD4BF" font-weight="800" letter-spacing="1.5">04 // SYSTEMS &amp; LABS</text>
+      <text x="16" y="34" class="sans-text" font-size="12" fill="#E2E8F0" font-weight="600">C · POSIX Sockets · CSEA / CSC NITC</text>
+    </g>
+  </g>
+
+  <!-- Technical Corner Brackets -->
+  <g stroke="#FF734D" stroke-width="1.5" opacity="0.7">
+    <path d="M 24 34 L 24 24 L 34 24" fill="none" />
+    <path d="M 1176 34 L 1176 24 L 1166 24" fill="none" />
+    <path d="M 24 366 L 24 376 L 34 376" fill="none" />
+    <path d="M 1176 366 L 1176 376 L 1166 376" fill="none" />
+  </g>
+</svg>

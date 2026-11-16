@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 36" width="150" height="36">
+  <defs>
+    <linearGradient id="bg_badge-linkedin.svg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#050B18" />
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="148" height="34" rx="17" fill="url(#bg_badge-linkedin.svg)" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="1.2" />
+  <rect x="16" y="12" width="12" height="12" rx="2.5" fill="none" stroke="#38BDF8" stroke-width="1.6"/>
+                   <line x1="19.5" y1="17" x2="19.5" y2="21" stroke="#38BDF8" stroke-width="1.4"/>
+                   <circle cx="19.5" cy="15" r="0.7" fill="#38BDF8"/>
+                   <path d="M 23 21 L 23 18.5 C 23 17.7 24.5 17.7 24.5 18.5 L 24.5 21" fill="none" stroke="#38BDF8" stroke-width="1.4"/>
+  <text x="35" y="22" font-family="'Geist Mono', 'Fira Code', monospace" font-size="11" font-weight="700" fill="#F8FAFC" letter-spacing="1">LINKEDIN</text>
+  <text x="132" y="22" font-family="'Geist Mono', monospace" font-size="12" font-weight="600" fill="#38BDF8">↗</text>
+</svg>

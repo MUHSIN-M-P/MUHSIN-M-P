@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 48" width="490" height="48">
+  <defs>
+    <linearGradient id="hG_principles" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9376" />
+      <stop offset="100%" stop-color="#FF734D" />
+    </linearGradient>
+  </defs>
+  <style>
+    .h-title {
+      font-family: 'Geist Mono', 'Fira Code', monospace;
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      fill: #F8FAFC;
+    }
+  </style>
+  <g transform="translate(10, 30)">
+    <rect x="0" y="-19" width="5" height="24" rx="2.5" fill="url(#hG_principles)" />
+    <circle cx="16" cy="-7" r="3" fill="#38BDF8" />
+    <text x="28" y="0" class="h-title">04 // ARCHITECTURE &amp; ENGINEERING CREDO</text>
+  </g>
+</svg>

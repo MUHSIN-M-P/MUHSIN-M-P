@@ -3,41 +3,45 @@ name: Auto Update Contributions in README
 on:
   push:
     branches: [ main ]
+    paths-ignore:
+      - 'README.md'
+      - 'assets/**'
   schedule:
     - cron: "0 0 * * *"  # Runs daily at midnight UTC
-  workflow_dispatch:
+  workflow_dispatch:      # Allows manual trigger anytime from the Actions tab
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write 
+      contents: write
       actions: read
 
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: "npm"
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci || npm install
 
       - name: Run Script to Update README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "Generating README content..."
+          echo "Generating README contribution telemetry..."
           node generate-contributions.js
 
       - name: Commit & Push Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "📝 Auto-update contributions in README" || echo "No changes to commit"
+          git add README.md .cache.json
+          git commit -m "📝 Auto-update contributions in README [skip ci]" || echo "No changes to commit"
           git push

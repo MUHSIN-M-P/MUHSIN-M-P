@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 36" width="135" height="36">
+  <defs>
+    <linearGradient id="bg_badge-email.svg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#050B18" />
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="133" height="34" rx="17" fill="url(#bg_badge-email.svg)" stroke="#F59E0B" stroke-opacity="0.5" stroke-width="1.2" />
+  <rect x="16" y="13" width="12" height="10" rx="1.5" fill="none" stroke="#F59E0B" stroke-width="1.6"/>
+                   <path d="M 16 14.5 L 22 18.5 L 28 14.5" fill="none" stroke="#F59E0B" stroke-width="1.4"/>
+  <text x="35" y="22" font-family="'Geist Mono', 'Fira Code', monospace" font-size="11" font-weight="700" fill="#F8FAFC" letter-spacing="1">EMAIL</text>
+  <text x="117" y="22" font-family="'Geist Mono', monospace" font-size="12" font-weight="600" fill="#F59E0B">↗</text>
+</svg>

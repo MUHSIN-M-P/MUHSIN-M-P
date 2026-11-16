@@ -1,63 +1,185 @@
-<div align="center">
-
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Wave" width="50" style="vertical-align: middle; display: inline-block;" /> MUHSIN-M-P
-
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" style="vertical-align: middle; display: inline-block;" /> Crafting Digital Experiences • Building The Future <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Shooting%20Star.png" alt="Star" width="25" style="vertical-align: middle; display: inline-block;" />
-
-<img src="https://komarev.com/ghpvc/?username=MUHSIN-M-P&label=Profile%20Explorers&color=brightgreen&style=plastic" alt="Profile views"/>
-
-
-</div>
-
----
-
-<div align="center">
-
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" style="vertical-align: middle; display: inline-block;" /> About Me <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" style="vertical-align: middle; display: inline-block;" />
-
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Technologist%20Medium%20Skin%20Tone.png" alt="Technologist" width="150" />
-
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="25" style="vertical-align: middle; display: inline-block;" /> **Full-Stack Developer** | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Light%20Bulb.png" alt="Bulb" width="25" style="vertical-align: middle; display: inline-block;" /> **Innovation Architect** | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20with%20Meridians.png" alt="Globe" width="25" style="vertical-align: middle; display: inline-block;" /> Open Source Contributor | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Crystal%20Ball.png" alt="Crystal Ball" width="25" height="25" style="vertical-align: middle; display: inline-block;" /> Tech Visionary
-
 <p align="center">
-  <a href="https://muhsin-m-p.vercel.app/" >
-    <img src="https://readme-typing-svg.herokuapp.com?size=20&duration=3000&pause=500&center=true&vCenter=true&width=600&lines=🚀+Visit+My+Portfolio" />
-  </a>
+  <a href="https://muhsin-m-p.vercel.app/"><img src="assets/hero.svg" alt="Muhsin M P — Systems & Web" width="100%" /></a>
 </p>
 
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/tagline-dark.svg" />
+    <img src="assets/tagline-light.svg" alt="Building resilient software & web architecture from the ground up" width="900" />
+  </picture>
+</p>
 
----
+<!-- ======================================================== -->
+<!-- COMMAND DOCK                                             -->
+<!-- ======================================================== -->
+<p align="center">
+  <a href="https://muhsin-m-p.vercel.app/"><img src="assets/badge-portfolio.svg" alt="Portfolio" height="34" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/muhsin-m-p/"><img src="assets/badge-linkedin.svg" alt="LinkedIn" height="34" /></a>
+  &nbsp;
+  <a href="https://github.com/MUHSIN-M-P"><img src="assets/badge-github.svg" alt="GitHub" height="34" /></a>
+  &nbsp;
+  <a href="mailto:muhsinmp.dev@gmail.com"><img src="assets/badge-email.svg" alt="Email" height="34" /></a>
+  &nbsp;
+  <a href="https://muhsin-m-p.vercel.app/"><img src="assets/badge-resume.svg" alt="Resume" height="34" /></a>
+</p>
+
+<br/>
+
+<!-- ======================================================== -->
+<!-- 01 // RIGHT NOW                                          -->
+<!-- ======================================================== -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/heading-now-dark.svg" />
+    <img src="assets/heading-now-light.svg" alt="01 // Right Now" />
+  </picture>
+</p>
+
+<table>
+  <tr>
+    <td width="55%" valign="top">
+      <h3>🏛️ NITC Venue Booking Portal</h3>
+      <b>Core Developer</b> · CSEA &amp; CSC, NIT Calicut<br/><br/>
+      <ul>
+        <li>Automated calendar booking and venue conflict handling.</li>
+        <li>Auto-refresh JWT authentication with role-based access control.</li>
+        <li>Built for high-concurrency campus event bookings.</li>
+      </ul>
+      <code>Next.js</code> &nbsp; <code>TypeScript</code> &nbsp; <code>Prisma</code> &nbsp; <code>PostgreSQL</code> &nbsp; <code>TailwindCSS</code>
+      <br/><br/>
+      <a href="https://github.com/MUHSIN-M-P/venue-portal-backend-csea"><b>View Backend Repo ↗</b></a>
+      <br/><br/>
+      <sub>🎓 B.Tech CSE · National Institute of Technology Calicut ('26)</sub>
+    </td>
+    <td width="45%" valign="top">
+      <b>🪟 HyprQuickFrame &amp; Linux Dotfiles</b><br/>
+      <sub>QML-powered screen workflow tool and HUD for Wayland / Hyprland with automated dotfile syncing.</sub><br/>
+      <code>QML</code> &nbsp; <code>C++</code> &nbsp; <code>Hyprland</code> &nbsp; <code>Wayland</code><br/>
+      <a href="https://github.com/MUHSIN-M-P/HyprQuickFrame"><b>View Repo ↗</b></a>
+      <br/><br/>
+      <b>🐳 Secure Container Access Manager &amp; eXpServer</b><br/>
+      <sub>Python CLI for Docker role-based access control and session logs, alongside socket network labs in C.</sub><br/>
+      <code>Python</code> &nbsp; <code>Docker</code> &nbsp; <code>C Sockets</code><br/>
+      <a href="https://github.com/MUHSIN-M-P/Secure-Container-Access-Manager"><b>View Repo ↗</b></a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- ======================================================== -->
+<!-- 02 // TECH STACK                                         -->
+<!-- ======================================================== -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/heading-toolkit-dark.svg" />
+    <img src="assets/heading-toolkit-light.svg" alt="02 // Tech Stack" />
+  </picture>
+</p>
+
+<p align="center">
+  <img src="assets/skills-marquee.svg" width="100%" alt="Tech Stack" />
+</p>
+
+<table>
+  <tr>
+    <td width="25%" valign="top">
+      <b>⚡ LANGUAGES</b>
+      <ul>
+        <li>C++</li>
+        <li>C</li>
+        <li>TypeScript</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>QML</li>
+      </ul>
+    </td>
+    <td width="25%" valign="top">
+      <b>🌐 FRONTEND</b>
+      <ul>
+        <li>Next.js</li>
+        <li>React</li>
+        <li>Tailwind CSS</li>
+        <li>HTML5 / CSS3</li>
+      </ul>
+    </td>
+    <td width="25%" valign="top">
+      <b>🗄️ BACKEND &amp; DB</b>
+      <ul>
+        <li>Node.js / Express</li>
+        <li>FastAPI / Flask</li>
+        <li>PostgreSQL</li>
+        <li>Prisma ORM</li>
+      </ul>
+    </td>
+    <td width="25%" valign="top">
+      <b>🛠️ SYSTEMS &amp; TOOLS</b>
+      <ul>
+        <li>Linux (Hyprland)</li>
+        <li>Docker</li>
+        <li>Git &amp; GitHub</li>
+        <li>Socket Programming</li>
+        <li>Postman</li>
+        <li>VS Code</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- ======================================================== -->
+<!-- 03 // RECENT ACTIVITY                                    -->
+<!-- ======================================================== -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/heading-activity-dark.svg" />
+    <img src="assets/heading-activity-light.svg" alt="03 // Recent Activity" />
+  </picture>
+</p>
 
 <div align="center">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Memo.png" alt="Memo" width="30" style="vertical-align: middle; display: inline-block;" /> Latest Commit Activity
+<img src="assets/terminal-header.svg" width="100%" alt="Recent Commits Terminal" />
 
-| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Package.png" alt="Package" width="25" style="vertical-align: middle; display: inline-block;" /> Repository | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Keyboard.png" alt="Keyboard" width="25" style="vertical-align: middle; display: inline-block;" /> Commit | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Calendar.png" alt="Calendar" width="25" height="25" style="vertical-align: middle; display: inline-block;" /> When |
+<br/>
+
+| 📦 Repository | 💬 Commit &amp; Message | 🕒 When |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **[MUHSIN-M-P/eXpServer-Networks-Lab-NITC](https://github.com/MUHSIN-M-P/eXpServer-Networks-Lab-NITC)** | [`8269e87`](https://github.com/MUHSIN-M-P/eXpServer-Networks-Lab-NITC/commit/8269e870778ce598a3cecdea89b30054ff847151) stage 14 completed | `10/3/2026` |
+| **[MUHSIN-M-P/HyprQuickFrame](https://github.com/MUHSIN-M-P/HyprQuickFrame)** | [`23d6f4d`](https://github.com/MUHSIN-M-P/HyprQuickFrame/commit/23d6f4dec3151a3757e7547033073968842a4c1e) Remove leftover temp files | `11/14/2026` |
+| **[cscnitc/blog-site](https://github.com/cscnitc/blog-site)** | [`d9a302a`](https://github.com/cscnitc/blog-site/commit/d9a302a99ad192628c5a28cf51cde9b51f3eb5ad) removed pnpm-lock.yml | `11/11/2026` |
+| **[MUHSIN-M-P/eXpServer-Networks-Lab-NITC](https://github.com/MUHSIN-M-P/eXpServer-Networks-Lab-NITC)** | [`978f822`](https://github.com/MUHSIN-M-P/eXpServer-Networks-Lab-NITC/commit/978f822cc8a94c134829a29dbb25851e2c36db07) completed upto stage 19 | `11/10/2026` |
 | **[MUHSIN-M-P/MUHSIN-M-P](https://github.com/MUHSIN-M-P/MUHSIN-M-P)** | [`7b91251`](https://github.com/MUHSIN-M-P/MUHSIN-M-P/commit/7b912512add84509d927273e24d449a86f7c5213) 📝 Auto-update contributions in README | `10/3/2026` |
-| **[MUHSIN-M-P/HyprQuickFrame](https://github.com/MUHSIN-M-P/HyprQuickFrame)** | [`51e1f17`](https://github.com/MUHSIN-M-P/HyprQuickFrame/commit/51e1f1710203e2d45858df99eab34b98707f73e4) Initial HyprQuickFrame release | `9/30/2026` |
+| **[MUHSIN-M-P/My-dotfiles](https://github.com/MUHSIN-M-P/My-dotfiles)** | [`71e425f`](https://github.com/MUHSIN-M-P/My-dotfiles/commit/71e425f62326fdbc45dedcc6c53a536daaa0e503) refactor: refurbish dotfiles to support Noctalia v5 (C++) and greeter login screen (greetd) | `10/9/2026` |
 | **[MUHSIN-M-P/venue-portal-backend-csea](https://github.com/MUHSIN-M-P/venue-portal-backend-csea)** | [`f83ab55`](https://github.com/MUHSIN-M-P/venue-portal-backend-csea/commit/f83ab5548f57c96fc2e6ca0f4cd2b9bd7bb31220) removed prisma.config.ts due to build failure | `9/18/2026` |
 | **[csea-nitc/venue-portal-backend](https://github.com/csea-nitc/venue-portal-backend)** | [`f83ab55`](https://github.com/csea-nitc/venue-portal-backend/commit/f83ab5548f57c96fc2e6ca0f4cd2b9bd7bb31220) removed prisma.config.ts due to build failure | `9/18/2026` |
 | **[MUHSIN-M-P/venue-portal-frontend-csea](https://github.com/MUHSIN-M-P/venue-portal-frontend-csea)** | [`97b6de0`](https://github.com/MUHSIN-M-P/venue-portal-frontend-csea/commit/97b6de0f20caf342c2c26ea91e71fda33f4c5e44) added auto refresh jwt and venue calendar for venue_handler | `9/15/2026` |
 | **[csea-nitc/venue-portal-frontend](https://github.com/csea-nitc/venue-portal-frontend)** | [`97b6de0`](https://github.com/csea-nitc/venue-portal-frontend/commit/97b6de0f20caf342c2c26ea91e71fda33f4c5e44) added auto refresh jwt and venue calendar for venue_handler | `9/15/2026` |
-| **[cscnitc/blog-site](https://github.com/cscnitc/blog-site)** | [`faa3bb8`](https://github.com/cscnitc/blog-site/commit/faa3bb8f2983baedbf8c961eba9133222c2c86b0) fixed build errors resulted from  moving to updated packages | `9/11/2026` |
-| **[MUHSIN-M-P/My-dotfiles](https://github.com/MUHSIN-M-P/My-dotfiles)** | [`6bb12cd`](https://github.com/MUHSIN-M-P/My-dotfiles/commit/6bb12cd4a7f84663fac1ae57c382ed8326121f4b) fix: branch-aware install/sync + noctalia profile isolation | `9/5/2026` |
 | **[MUHSIN-M-P/Project-FindMyFriend](https://github.com/MUHSIN-M-P/Project-FindMyFriend)** | [`f3cdbe2`](https://github.com/MUHSIN-M-P/Project-FindMyFriend/commit/f3cdbe2087b1eb62ad97b90bbb5505ac4b614ecb) cors issue for token fixed | `7/9/2026` |
+| **[MUHSIN-M-P/Quiz-app-Web-Development](https://github.com/MUHSIN-M-P/Quiz-app-Web-Development)** | [`1620627`](https://github.com/MUHSIN-M-P/Quiz-app-Web-Development/commit/1620627605605bd84cb9127be397db7499e0c8d4) fix: resolve security vulnerabilities via package overrides | `6/25/2026` |
+| **[MUHSIN-M-P/NITC-Base--DBMS](https://github.com/MUHSIN-M-P/NITC-Base--DBMS)** | [`1665dc7`](https://github.com/MUHSIN-M-P/NITC-Base--DBMS/commit/1665dc7a61d7c90b55efb9af5530cad887507acf) updated readme | `6/16/2026` |
+| **[MUHSIN-M-P/Secure-Container-Access-Manager](https://github.com/MUHSIN-M-P/Secure-Container-Access-Manager)** | [`140e1c0`](https://github.com/MUHSIN-M-P/Secure-Container-Access-Manager/commit/140e1c0d61e5904fd0d2fa155d24f0619762e6b0) some fixes for sql schema and typo fixed | `5/22/2026` |
+| **[MUHSIN-M-P/Code-Track---DBMS-mini-Project](https://github.com/MUHSIN-M-P/Code-Track---DBMS-mini-Project)** | [`b89f288`](https://github.com/MUHSIN-M-P/Code-Track---DBMS-mini-Project/commit/b89f288516762ddf0957696917aceb615346a7bb) coding window | `4/6/2026` |
+| **[MUHSIN-M-P/CodeSquad-CP-DSA-Tracker](https://github.com/MUHSIN-M-P/CodeSquad-CP-DSA-Tracker)** | [`a974d40`](https://github.com/MUHSIN-M-P/CodeSquad-CP-DSA-Tracker/commit/a974d4064d95ba7640d9d8173fcce439a65e421c) some fixes and advancements in leetcode fetching | `1/19/2026` |
+| **[MUHSIN-M-P/Server-uptime-Monitor](https://github.com/MUHSIN-M-P/Server-uptime-Monitor)** | [`490ca0a`](https://github.com/MUHSIN-M-P/Server-uptime-Monitor/commit/490ca0ae4851f6f036a167c0fc87c3dc45ce6cc3) Update README.md | `1/3/2026` |
+| **[MUHSIN-M-P/csc-blog-site](https://github.com/MUHSIN-M-P/csc-blog-site)** | [`3b9f6d1`](https://github.com/MUHSIN-M-P/csc-blog-site/commit/3b9f6d1a85d9e33ca89d7f518455292d19ba3fbe) major update with all needs | `12/8/2025` |
+| **[MUHSIN-M-P/Notely-Web-Development](https://github.com/MUHSIN-M-P/Notely-Web-Development)** | [`4034255`](https://github.com/MUHSIN-M-P/Notely-Web-Development/commit/40342555e5a1b81334b93797b0093bbd11eb5e3e) updated readme | `10/27/2025` |
+| **[MUHSIN-M-P/auto-express](https://github.com/MUHSIN-M-P/auto-express)** | [`36628b7`](https://github.com/MUHSIN-M-P/auto-express/commit/36628b71322dcedc92051226673312cc30aecde1) Merge pull request #28 from vansh2408/feature/add-default-readme | `10/3/2025` |
+| **[IEEE-SB-NITC/ieee-sb-nitc](https://github.com/IEEE-SB-NITC/ieee-sb-nitc)** | [`dbe6151`](https://github.com/IEEE-SB-NITC/ieee-sb-nitc/commit/dbe615182dc7a01ef98b8c8af23288a40222858c) fixed mobile screen background | `8/25/2025` |
 
 <!--END_CONTRIBUTED_REPOS-->
 
+<br/><br/>
+
+<b>Tested. Broken. Perfecting. Built On Resilience.</b><br/>
+<sub><a href="https://muhsin-m-p.vercel.app/"><b>muhsin-m-p.vercel.app</b></a></sub>
+
+<br/><br/>
+
+<a href="https://github.com/MUHSIN-M-P">
+  <img src="https://komarev.com/ghpvc/?username=MUHSIN-M-P&label=Telemetry%20Views&color=FF734D&style=flat-square" alt="Profile views"/>
+</a>
+
 </div>
-
----
-
-<div align="center">
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" alt="Trophy" width="25" height="25" style="vertical-align: middle; display: inline-block;" /> Achievement Showcase <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/1st%20Place%20Medal.png" alt="1st Place Medal" width="25" height="25" style="vertical-align: middle; display: inline-block;" />
-
-[![An image of @muhsinmp's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/muhsinmp)](https://holopin.io/@muhsinmp)
-
-</div>
-
----

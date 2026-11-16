@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 44" width="260" height="44">
+  <defs>
+    <linearGradient id="hGL_toolkit" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#FF734D" />
+    </linearGradient>
+  </defs>
+  <style>
+    .h-title-l {
+      font-family: 'Geist Mono', 'Fira Code', monospace;
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      fill: #0F172A;
+    }
+  </style>
+  <g transform="translate(10, 28)">
+    <rect x="0" y="-17" width="5" height="22" rx="2.5" fill="url(#hGL_toolkit)" />
+    <circle cx="16" cy="-6" r="3" fill="#0284C7" />
+    <text x="28" y="0" class="h-title-l">02 // TECH STACK</text>
+  </g>
+</svg>

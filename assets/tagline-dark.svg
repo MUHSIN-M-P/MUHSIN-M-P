@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 50" width="100%" height="100%">
+  <style>
+    .t-main {
+      font-family: 'Geist', 'Inter', -apple-system, sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      fill: #E2E8F0;
+      letter-spacing: 0.2px;
+    }
+    .t-glow {
+      font-weight: 700;
+      fill: #FF734D;
+    }
+    .t-sub {
+      font-family: 'Geist Mono', 'Fira Code', monospace;
+      font-size: 11.5px;
+      font-weight: 600;
+      fill: #94A3B8;
+      letter-spacing: 1.5px;
+    }
+    .dot {
+      fill: #38BDF8;
+    }
+  </style>
+
+  <g transform="translate(450, 20)" text-anchor="middle">
+    <text class="t-main" y="0">
+      Building resilient software &amp; web architecture <tspan class="t-glow">from the ground up</tspan>.
+    </text>
+    <text class="t-sub" y="22">
+      CAMPUS PORTALS <tspan class="dot">◆</tspan> WAYLAND WORKSPACES <tspan class="dot">◆</tspan> DOCKER TOOLS <tspan class="dot">◆</tspan> NETWORK LABS
+    </text>
+  </g>
+</svg>
