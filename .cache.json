@@ -1,45 +1,45 @@
 {
   "MUHSIN-M-P/MUHSIN-M-P": {
     "repo": "MUHSIN-M-P/MUHSIN-M-P",
-    "sha": "801b4509396aae82ec77b35d8eb384c08f3bdcf1",
-    "message": "📝 Auto-update contributions in README",
-    "date": "2025-10-15T01:23:52Z",
-    "url": "https://github.com/MUHSIN-M-P/MUHSIN-M-P/commit/801b4509396aae82ec77b35d8eb384c08f3bdcf1"
+    "sha": "317f230a683c0f8894fd57f58cd17d212f3c718d",
+    "message": "new readme",
+    "date": "2026-11-16T14:59:38Z",
+    "url": "https://github.com/MUHSIN-M-P/MUHSIN-M-P/commit/317f230a683c0f8894fd57f58cd17d212f3c718d"
   },
   "IEEE-SB-NITC/ieee-sb-nitc": {
     "repo": "IEEE-SB-NITC/ieee-sb-nitc",
-    "sha": "dbe615182dc7a01ef98b8c8af23288a40222858c",
-    "message": "fixed mobile screen background",
-    "date": "2025-08-25T04:08:18Z",
-    "url": "https://github.com/IEEE-SB-NITC/ieee-sb-nitc/commit/dbe615182dc7a01ef98b8c8af23288a40222858c"
+    "sha": "60efe0801500459c74561c5870f1baf76837bde1",
+    "message": "refactor: update counter page",
+    "date": "2026-11-03T13:24:24Z",
+    "url": "https://github.com/IEEE-SB-NITC/ieee-sb-nitc/commit/60efe0801500459c74561c5870f1baf76837bde1"
   },
   "MUHSIN-M-P/Secure-Container-Access-Manager": {
     "repo": "MUHSIN-M-P/Secure-Container-Access-Manager",
-    "sha": "9e27fabbec5e9ed61cbe11924bdec93e74630a13",
-    "message": "added notes",
-    "date": "2025-12-18T04:41:40Z",
-    "url": "https://github.com/MUHSIN-M-P/Secure-Container-Access-Manager/commit/9e27fabbec5e9ed61cbe11924bdec93e74630a13"
+    "sha": "140e1c0d61e5904fd0d2fa155d24f0619762e6b0",
+    "message": "some fixes for sql schema and typo fixed",
+    "date": "2026-05-22T06:02:12Z",
+    "url": "https://github.com/MUHSIN-M-P/Secure-Container-Access-Manager/commit/140e1c0d61e5904fd0d2fa155d24f0619762e6b0"
   },
   "MUHSIN-M-P/Project-FindMyFriend": {
     "repo": "MUHSIN-M-P/Project-FindMyFriend",
-    "sha": "e1fae8eafa21f5cdbbb66ab9ab24a5f2b3165386",
-    "message": "frontend updations",
-    "date": "2025-12-17T12:33:40Z",
-    "url": "https://github.com/MUHSIN-M-P/Project-FindMyFriend/commit/e1fae8eafa21f5cdbbb66ab9ab24a5f2b3165386"
+    "sha": "f3cdbe2087b1eb62ad97b90bbb5505ac4b614ecb",
+    "message": "cors issue for token fixed",
+    "date": "2026-07-09T15:26:40Z",
+    "url": "https://github.com/MUHSIN-M-P/Project-FindMyFriend/commit/f3cdbe2087b1eb62ad97b90bbb5505ac4b614ecb"
   },
   "MUHSIN-M-P/CodeSquad-CP-DSA-Tracker": {
     "repo": "MUHSIN-M-P/CodeSquad-CP-DSA-Tracker",
-    "sha": "7174589f2cdf584b6b42a80fb4688cfef342a1ab",
-    "message": "completed for leetcode  v1",
-    "date": "2025-12-09T06:37:12Z",
-    "url": "https://github.com/MUHSIN-M-P/CodeSquad-CP-DSA-Tracker/commit/7174589f2cdf584b6b42a80fb4688cfef342a1ab"
+    "sha": "a974d4064d95ba7640d9d8173fcce439a65e421c",
+    "message": "some fixes and advancements in leetcode fetching",
+    "date": "2026-01-19T16:04:09Z",
+    "url": "https://github.com/MUHSIN-M-P/CodeSquad-CP-DSA-Tracker/commit/a974d4064d95ba7640d9d8173fcce439a65e421c"
   },
   "cscnitc/blog-site": {
     "repo": "cscnitc/blog-site",
-    "sha": "3b9f6d1a85d9e33ca89d7f518455292d19ba3fbe",
-    "message": "major update with all needs",
-    "date": "2025-12-08T07:20:57Z",
-    "url": "https://github.com/cscnitc/blog-site/commit/3b9f6d1a85d9e33ca89d7f518455292d19ba3fbe"
+    "sha": "d9a302a99ad192628c5a28cf51cde9b51f3eb5ad",
+    "message": "removed pnpm-lock.yml",
+    "date": "2026-11-11T09:10:16Z",
+    "url": "https://github.com/cscnitc/blog-site/commit/d9a302a99ad192628c5a28cf51cde9b51f3eb5ad"
   },
   "MUHSIN-M-P/AImove": {
     "repo": "MUHSIN-M-P/AImove",
@@ -47,5 +47,152 @@
     "message": "Update README.md",
     "date": "2025-12-02T12:35:06Z",
     "url": "https://github.com/MUHSIN-M-P/AImove/commit/d715f072a98b0e1a2e5e41dfa652eebfe748a298"
+  },
+  "csea-nitc/venue-portal-backend": {
+    "repo": "csea-nitc/venue-portal-backend",
+    "sha": "f83ab5548f57c96fc2e6ca0f4cd2b9bd7bb31220",
+    "message": "removed prisma.config.ts due to build failure",
+    "date": "2026-09-18T15:32:40Z",
+    "url": "https://github.com/csea-nitc/venue-portal-backend/commit/f83ab5548f57c96fc2e6ca0f4cd2b9bd7bb31220"
+  },
+  "csea-nitc/venue-portal-frontend": {
+    "repo": "csea-nitc/venue-portal-frontend",
+    "sha": "97b6de0f20caf342c2c26ea91e71fda33f4c5e44",
+    "message": "added auto refresh jwt and venue calendar for venue_handler",
+    "date": "2026-09-15T10:15:43Z",
+    "url": "https://github.com/csea-nitc/venue-portal-frontend/commit/97b6de0f20caf342c2c26ea91e71fda33f4c5e44"
+  },
+  "MUHSIN-M-P/HyprQuickFrame": {
+    "repo": "MUHSIN-M-P/HyprQuickFrame",
+    "sha": "23d6f4dec3151a3757e7547033073968842a4c1e",
+    "message": "Remove leftover temp files",
+    "date": "2026-11-14T05:15:26Z",
+    "url": "https://github.com/MUHSIN-M-P/HyprQuickFrame/commit/23d6f4dec3151a3757e7547033073968842a4c1e"
+  },
+  "MUHSIN-M-P/eXpServer-Networks-Lab-NITC": {
+    "repo": "MUHSIN-M-P/eXpServer-Networks-Lab-NITC",
+    "sha": "978f822cc8a94c134829a29dbb25851e2c36db07",
+    "message": "completed upto stage 19",
+    "date": "2026-11-10T12:28:34Z",
+    "url": "https://github.com/MUHSIN-M-P/eXpServer-Networks-Lab-NITC/commit/978f822cc8a94c134829a29dbb25851e2c36db07"
+  },
+  "MUHSIN-M-P/My-dotfiles": {
+    "repo": "MUHSIN-M-P/My-dotfiles",
+    "sha": "71e425f62326fdbc45dedcc6c53a536daaa0e503",
+    "message": "refactor: refurbish dotfiles to support Noctalia v5 (C++) and greeter login screen (greetd)",
+    "date": "2026-10-09T11:26:15Z",
+    "url": "https://github.com/MUHSIN-M-P/My-dotfiles/commit/71e425f62326fdbc45dedcc6c53a536daaa0e503"
+  },
+  "MUHSIN-M-P/venue-portal-backend-csea": {
+    "repo": "MUHSIN-M-P/venue-portal-backend-csea",
+    "sha": "f83ab5548f57c96fc2e6ca0f4cd2b9bd7bb31220",
+    "message": "removed prisma.config.ts due to build failure",
+    "date": "2026-09-18T15:32:40Z",
+    "url": "https://github.com/MUHSIN-M-P/venue-portal-backend-csea/commit/f83ab5548f57c96fc2e6ca0f4cd2b9bd7bb31220"
+  },
+  "MUHSIN-M-P/venue-portal-frontend-csea": {
+    "repo": "MUHSIN-M-P/venue-portal-frontend-csea",
+    "sha": "97b6de0f20caf342c2c26ea91e71fda33f4c5e44",
+    "message": "added auto refresh jwt and venue calendar for venue_handler",
+    "date": "2026-09-15T10:15:43Z",
+    "url": "https://github.com/MUHSIN-M-P/venue-portal-frontend-csea/commit/97b6de0f20caf342c2c26ea91e71fda33f4c5e44"
+  },
+  "MUHSIN-M-P/Quiz-app-Web-Development": {
+    "repo": "MUHSIN-M-P/Quiz-app-Web-Development",
+    "sha": "1620627605605bd84cb9127be397db7499e0c8d4",
+    "message": "fix: resolve security vulnerabilities via package overrides",
+    "date": "2026-06-25T11:45:06Z",
+    "url": "https://github.com/MUHSIN-M-P/Quiz-app-Web-Development/commit/1620627605605bd84cb9127be397db7499e0c8d4"
+  },
+  "MUHSIN-M-P/NITC-Base--DBMS": {
+    "repo": "MUHSIN-M-P/NITC-Base--DBMS",
+    "sha": "1665dc7a61d7c90b55efb9af5530cad887507acf",
+    "message": "updated readme",
+    "date": "2026-06-16T07:26:40Z",
+    "url": "https://github.com/MUHSIN-M-P/NITC-Base--DBMS/commit/1665dc7a61d7c90b55efb9af5530cad887507acf"
+  },
+  "MUHSIN-M-P/Code-Track---DBMS-mini-Project": {
+    "repo": "MUHSIN-M-P/Code-Track---DBMS-mini-Project",
+    "sha": "b89f288516762ddf0957696917aceb615346a7bb",
+    "message": "coding window",
+    "date": "2026-04-06T18:14:02Z",
+    "url": "https://github.com/MUHSIN-M-P/Code-Track---DBMS-mini-Project/commit/b89f288516762ddf0957696917aceb615346a7bb"
+  },
+  "MUHSIN-M-P/Server-uptime-Monitor": {
+    "repo": "MUHSIN-M-P/Server-uptime-Monitor",
+    "sha": "490ca0ae4851f6f036a167c0fc87c3dc45ce6cc3",
+    "message": "Update README.md",
+    "date": "2026-01-03T06:20:53Z",
+    "url": "https://github.com/MUHSIN-M-P/Server-uptime-Monitor/commit/490ca0ae4851f6f036a167c0fc87c3dc45ce6cc3"
+  },
+  "MUHSIN-M-P/csc-blog-site": {
+    "repo": "MUHSIN-M-P/csc-blog-site",
+    "sha": "3b9f6d1a85d9e33ca89d7f518455292d19ba3fbe",
+    "message": "major update with all needs",
+    "date": "2025-12-08T07:20:57Z",
+    "url": "https://github.com/MUHSIN-M-P/csc-blog-site/commit/3b9f6d1a85d9e33ca89d7f518455292d19ba3fbe"
+  },
+  "MUHSIN-M-P/Notely-Web-Development": {
+    "repo": "MUHSIN-M-P/Notely-Web-Development",
+    "sha": "40342555e5a1b81334b93797b0093bbd11eb5e3e",
+    "message": "updated readme",
+    "date": "2025-10-27T15:24:42Z",
+    "url": "https://github.com/MUHSIN-M-P/Notely-Web-Development/commit/40342555e5a1b81334b93797b0093bbd11eb5e3e"
+  },
+  "MUHSIN-M-P/auto-express": {
+    "repo": "MUHSIN-M-P/auto-express",
+    "sha": "36628b71322dcedc92051226673312cc30aecde1",
+    "message": "Merge pull request #28 from vansh2408/feature/add-default-readme",
+    "date": "2025-10-03T02:22:51Z",
+    "url": "https://github.com/MUHSIN-M-P/auto-express/commit/36628b71322dcedc92051226673312cc30aecde1"
+  },
+  "MUHSIN-M-P/Travel-Book": {
+    "repo": "MUHSIN-M-P/Travel-Book",
+    "sha": "96ded7a72780b6127a46586e158793d0fe448d2e",
+    "message": "testing",
+    "date": "2025-07-27T13:33:56Z",
+    "url": "https://github.com/MUHSIN-M-P/Travel-Book/commit/96ded7a72780b6127a46586e158793d0fe448d2e"
+  },
+  "MUHSIN-M-P/otpauthentication": {
+    "repo": "MUHSIN-M-P/otpauthentication",
+    "sha": "6521c604fdd2fde199f81f2c8b70ed3cee7c7f11",
+    "message": "Merge pull request #21 from MUHSIN-M-P/feat/db",
+    "date": "2025-07-26T12:54:46Z",
+    "url": "https://github.com/MUHSIN-M-P/otpauthentication/commit/6521c604fdd2fde199f81f2c8b70ed3cee7c7f11"
+  },
+  "MUHSIN-M-P/NSRC": {
+    "repo": "MUHSIN-M-P/NSRC",
+    "sha": "6084e9a8777e110ccc9cb4c81513da8ebf16045c",
+    "message": "Removed padding on top and removed transperancy in orange hr",
+    "date": "2025-07-06T19:18:29Z",
+    "url": "https://github.com/MUHSIN-M-P/NSRC/commit/6084e9a8777e110ccc9cb4c81513da8ebf16045c"
+  },
+  "MUHSIN-M-P/GLUG-Website": {
+    "repo": "MUHSIN-M-P/GLUG-Website",
+    "sha": "dcf84ab0dac8b9cbc2fde15521ec9783287aa581",
+    "message": "Merge branch 'ZE206:main' into main",
+    "date": "2025-06-25T06:44:31Z",
+    "url": "https://github.com/MUHSIN-M-P/GLUG-Website/commit/dcf84ab0dac8b9cbc2fde15521ec9783287aa581"
+  },
+  "MUHSIN-M-P/Simple-Racing-Game-WebDev": {
+    "repo": "MUHSIN-M-P/Simple-Racing-Game-WebDev",
+    "sha": "2c60e45324746cb505470ef7a03772d0e6204f55",
+    "message": "Create README.md",
+    "date": "2025-04-24T12:57:05Z",
+    "url": "https://github.com/MUHSIN-M-P/Simple-Racing-Game-WebDev/commit/2c60e45324746cb505470ef7a03772d0e6204f55"
+  },
+  "MUHSIN-M-P/Find-Movies---Web-Development": {
+    "repo": "MUHSIN-M-P/Find-Movies---Web-Development",
+    "sha": "2369ee8197863fa348466dc09380770751907744",
+    "message": "Update README.md",
+    "date": "2024-12-10T11:43:40Z",
+    "url": "https://github.com/MUHSIN-M-P/Find-Movies---Web-Development/commit/2369ee8197863fa348466dc09380770751907744"
+  },
+  "MUHSIN-M-P/Music-player-Web-Development": {
+    "repo": "MUHSIN-M-P/Music-player-Web-Development",
+    "sha": "acc14f0824e6d0e2156a4c342b648876fc8b8284",
+    "message": "Files Uploaded",
+    "date": "2024-08-31T13:07:57Z",
+    "url": "https://github.com/MUHSIN-M-P/Music-player-Web-Development/commit/acc14f0824e6d0e2156a4c342b648876fc8b8284"
   }
 }
